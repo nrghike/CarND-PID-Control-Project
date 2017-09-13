@@ -2,6 +2,27 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
+## Reflections
+## The effect of P, I and D components of the PID Controller
+
+Using the Cross Track Error (CTE) P component of the PID controller gives the correct steering angle. However, P itself will not reach the exact target and will cause a lot of overshoot and oscillations. So P controller is not enough for safe driving.
+
+In order to mitigate these issues, we can introduce D component to our controller. D component captures the temporal difference of the CTE. So it helps to safely and smoothly navigate the car to the target. 
+
+Finally, the I component is proportional to both magnitude and duration of the CTE. Hence, I component helps to move the car towards the target trajectory and helps to reduce the drift. 
+
+## Tuning PID controller gains
+
+I used following method to tune PID parameters:
+
+Set all gains to zero.
+Increase the P gain until the response to a disturbance is steady oscillation.
+Increase the D gain until the the oscillations go away (i.e. it's critically damped).
+Repeat steps 2 and 3 until increasing the D gain does not stop the oscillations.
+Set P and D to the last stable values.
+Increase the I gain until it brings you to the setpoint with the number of oscillations desired (normally zero but a quicker response can be had if you don't mind a couple oscillations of overshoot)
+
+[reference](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops)
 
 ## Dependencies
 
