@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/udacity/CarND-PID-Control-Project/src/PID.cpp
+/mnt/g/Udacity/CarND-PID-Control-Project/src/PID.cpp
 PID.h
-/home/udacity/CarND-PID-Control-Project/src/PID.h
+/mnt/g/Udacity/CarND-PID-Control-Project/src/PID.h
 limits
 -
 
-/home/udacity/CarND-PID-Control-Project/src/PID.h
+/mnt/g/Udacity/CarND-PID-Control-Project/src/PID.h
 
-/home/udacity/CarND-PID-Control-Project/src/json.hpp
+/mnt/g/Udacity/CarND-PID-Control-Project/src/json.hpp
 algorithm
 -
 array
@@ -70,15 +70,15 @@ utility
 vector
 -
 
-/home/udacity/CarND-PID-Control-Project/src/main.cpp
+/mnt/g/Udacity/CarND-PID-Control-Project/src/main.cpp
 uWS/uWS.h
 -
 iostream
 -
 json.hpp
-/home/udacity/CarND-PID-Control-Project/src/json.hpp
+/mnt/g/Udacity/CarND-PID-Control-Project/src/json.hpp
 PID.h
-/home/udacity/CarND-PID-Control-Project/src/PID.h
+/mnt/g/Udacity/CarND-PID-Control-Project/src/PID.h
 math.h
 -
 

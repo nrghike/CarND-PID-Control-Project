@@ -24,6 +24,12 @@ I used following method to tune PID parameters:
 
 [reference](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops)
 
+## Results
+
+The simulator conifguration is as shown in /images/Simulator_Configuration.PNG
+
+Also, I have stored the video result in https://youtu.be/Wnqi3z1mynU
+
 ## Dependencies
 
 * cmake >= 3.5
